@@ -77,7 +77,7 @@ async def callback_handler(callback: types.CallbackQuery):
         text = (
             "📁 **Моє портфоліо та приклади робіт**\n\n"
             "Всі мої готові проєкти, приклади монтажу, дизайну та коду зібрані тут:\n"
-            "👉 [Посилання на твій канал або GitHub](https://t.me/zhekaportfolio)\n\n"
+            "👉 [Портфоліо](https://t.me/zhekaportfolio)\n\n"
             "Якщо хочеш побачити більше специфічних прикладів — запитуй прямо в особистих повідомленнях!"
         )
         await callback.message.edit_text(text=text, reply_markup=get_back_keyboard(), parse_mode="Markdown",
